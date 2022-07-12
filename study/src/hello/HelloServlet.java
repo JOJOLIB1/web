@@ -1,3 +1,5 @@
+package hello;
+
 import jakarta.servlet.*;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,7 +10,7 @@ import java.sql.ResultSet;
 
 
 /**
- * @className: PACKAGE_NAME.HelloServlet
+ * @className: PACKAGE_NAME.hello^.HelloServlet
  * @description:
  * @author: 江骏杰
  * @create: 2022-07-11 11:00
