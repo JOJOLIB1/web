@@ -46,4 +46,22 @@
         <servlet-name>Hello</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>contest</servlet-name>
+        <servlet-class>contest.TestServlet</servlet-class>
+        <init-param>
+            <param-name>key00</param-name>
+            <param-value>value00</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contest</servlet-name>
+        <url-pattern>/contest</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>key0</param-name>
+        <param-value>value0</param-value>
+    </context-param>
 </web-app>

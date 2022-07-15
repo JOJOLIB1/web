@@ -36,6 +36,12 @@
         <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/../../../game  production/tomcat/tomcat-10.0-doc/servletapi/resources" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/java" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/modules/jdbc-pool/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/modules/jdbc-pool/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/test" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/webapps/docs/appdev/sample/src" />
+          <root url="jar://$MODULE_DIR$/../../../game  production/tomcat/apache-tomcat-10.0.22-src.zip!/apache-tomcat-10.0.22-src/webapps/examples/WEB-INF/classes" />
         </SOURCES>
       </library>
     </orderEntry>
