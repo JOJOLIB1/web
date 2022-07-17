@@ -8,8 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/study/src/http/RequestTestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/crud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/util/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/dept.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/web/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/http/RequestTestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/http/RequestTestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +76,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Push/webL",
+    "last_opened_file_path": "E:/Push/webL/crud/web/WEB-INF/lib",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\study\web\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -202,7 +225,14 @@
       <workItem from="1657672744680" duration="1738000" />
       <workItem from="1657853461094" duration="196000" />
       <workItem from="1657941097998" duration="734000" />
-      <workItem from="1657975662933" duration="1347000" />
+      <workItem from="1657975662933" duration="1399000" />
+      <workItem from="1658023991473" duration="1663000" />
+      <workItem from="1658045708080" duration="181000" />
+      <workItem from="1658045945262" duration="374000" />
+      <workItem from="1658046448636" duration="70000" />
+      <workItem from="1658050175679" duration="35000" />
+      <workItem from="1658065197082" duration="1351000" />
+      <workItem from="1658069076005" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -239,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657941723744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="httpServletRequest preparing">
+      <created>1657983118175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657983118175</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +310,7 @@
     <MESSAGE value="设计模式-适配器" />
     <MESSAGE value="GenericServlet ServletContext ServletConfig" />
     <MESSAGE value="welcome" />
-    <option name="LAST_COMMIT_MESSAGE" value="welcome" />
+    <MESSAGE value="httpServletRequest preparing" />
+    <option name="LAST_COMMIT_MESSAGE" value="httpServletRequest preparing" />
   </component>
 </project>

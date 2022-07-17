@@ -60,8 +60,21 @@
         <url-pattern>/contest</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>fo</servlet-name>
+        <servlet-class>http.RequestTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>fo</servlet-name>
+        <url-pattern>/form</url-pattern>
+    </servlet-mapping>
+
     <context-param>
         <param-name>key0</param-name>
         <param-value>value0</param-value>
     </context-param>
+
+    <welcome-file-list>
+        <welcome-file>welcome.html</welcome-file>
+    </welcome-file-list>
 </web-app>
