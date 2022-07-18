@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="crud:war exploded" />
       <artifact name="study:war exploded" />
-      <artifact name="welcome:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/crud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/util/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/dept.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/web/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/http/Other.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/src/http/RequestTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/src/http/RequestTestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/http/RequestTestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/dept.sql" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/dept.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +33,7 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -68,27 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Push/webL/crud/web/WEB-INF/lib",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL/crud/web/WEB-INF/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
@@ -100,18 +97,19 @@
   </component>
   <component name="RunManager">
     <configuration name="汤姆猫" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="study:war exploded">
+        <artifact name="crud:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/xmm" />
+            <option name="CONTEXT_PATH" value="/crud" />
           </settings>
         </artifact>
-        <artifact name="welcome:war exploded">
+        <artifact name="study:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/welcome" />
+            <option name="CONTEXT_PATH" value="/study" />
           </settings>
         </artifact>
       </deployment>
@@ -189,8 +187,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="crud:war exploded" />
           <artifact name="study:war exploded" />
-          <artifact name="welcome:war exploded" />
         </option>
       </method>
     </configuration>
@@ -233,6 +231,8 @@
       <workItem from="1658050175679" duration="35000" />
       <workItem from="1658065197082" duration="1351000" />
       <workItem from="1658069076005" duration="2177000" />
+      <workItem from="1658071297155" duration="247000" />
+      <workItem from="1658111264871" duration="6200000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -276,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657983118175</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="初始化">
+      <created>1658071352182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658071352182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="初始化">
+      <created>1658071474545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658071474545</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +325,7 @@
     <MESSAGE value="GenericServlet ServletContext ServletConfig" />
     <MESSAGE value="welcome" />
     <MESSAGE value="httpServletRequest preparing" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpServletRequest preparing" />
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
 </project>
