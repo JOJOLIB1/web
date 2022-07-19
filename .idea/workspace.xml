@@ -8,20 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/web/page/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/http/Other.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/http/RequestTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/servlet/DeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/servlet/DetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/servlet/ListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/servlet/getMessage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/web/page/Error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/crud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/util/druid.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/web/page/dept.sql" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/dept.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/Order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/dept.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/web/page/list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/web/page/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/study_war_exploded/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,37 +68,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL/crud/web/WEB-INF/lib&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Push/webL",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\study\web\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Push\webL\crud\src" />
       <recent name="E:\Push\webL\study\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.汤姆猫">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Test" />
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="servlet.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="servlet.Test" />
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.DBUtil" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="汤姆猫" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -192,6 +244,13 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.servlet.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.DBUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -232,7 +291,13 @@
       <workItem from="1658065197082" duration="1351000" />
       <workItem from="1658069076005" duration="2177000" />
       <workItem from="1658071297155" duration="247000" />
-      <workItem from="1658111264871" duration="6200000" />
+      <workItem from="1658111264871" duration="6410000" />
+      <workItem from="1658118929586" duration="36000" />
+      <workItem from="1658193526918" duration="5718000" />
+      <workItem from="1658202760248" duration="1644000" />
+      <workItem from="1658204445318" duration="2718000" />
+      <workItem from="1658219545893" duration="1894000" />
+      <workItem from="1658233397223" duration="4035000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -290,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658071474545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="复习">
+      <created>1658118078212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658118078212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +398,18 @@
     <MESSAGE value="welcome" />
     <MESSAGE value="httpServletRequest preparing" />
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/crud/src/servlet/DeleteServlet.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

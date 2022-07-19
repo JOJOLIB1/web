@@ -6,4 +6,32 @@
     <welcome-file-list>
         <welcome-file>page/welcome.html</welcome-file>
     </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>list</servlet-name>
+        <servlet-class>servlet.ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>list</servlet-name>
+        <url-pattern>/servlet/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>detail</servlet-name>
+        <servlet-class>servlet.DetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>detail</servlet-name>
+        <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/del</url-pattern>
+    </servlet-mapping>
+
 </web-app>

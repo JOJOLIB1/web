@@ -1,13 +1,8 @@
 package util;
-import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
-import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Properties;
+import java.sql.*;
+
 
 /**
  * @className: util.DBUtil
@@ -18,37 +13,34 @@ import java.util.Properties;
 public class DBUtil {
     public static DataSource dataSource = null;
     static {
-        // 配置差一个数据库
-        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("druid.properties");
-        Properties pro = new Properties();
         try {
-            pro.load(is);
-            dataSource = DruidDataSourceFactory.createDataSource(pro);
-        } catch (Exception e) {
-            e.printStackTrace();
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
     }
     public static Connection getConnection() throws SQLException {
-        return dataSource.getConnection();
+        return DriverManager.getConnection("jdbc:mysql://43.142.25.180:3306/dep_db","root","Hello_world_123!!~~~");
     }
     public static void close(Connection conn, Statement statement) {
         try {
-            if (conn != null)
-                conn.close();
             if (statement != null)
                 statement.close();
+            if (conn != null)
+                conn.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     public static void close(Connection conn, Statement statement, ResultSet resultSet) {
         try {
-            if (conn != null)
-                conn.close();
-            if (statement != null)
-                statement.close();
+            // 先关小的
             if (resultSet != null)
                 resultSet.close();
+            if (statement != null)
+                statement.close();
+            if (conn != null)
+                conn.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
