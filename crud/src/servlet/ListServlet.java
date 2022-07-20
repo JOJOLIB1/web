@@ -18,7 +18,8 @@ import java.sql.*;
  */
 public class ListServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void service(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
         String path = req.getContextPath();
         resp.setContentType("text/html;charset=utf-8");
         PrintWriter out = resp.getWriter();
@@ -35,7 +36,7 @@ public class ListServlet extends HttpServlet {
         out.print("<title>列表</title>");
         out.print("</head>");
         out.print("<body>");
-        out.print("<table border=\"1px\" width=\"50%\">");
+        out.print("<table align='center' border=\"1px\" width=\"50%\">");
         out.print("<tr>");
         out.print("<th>编号</th>");
         out.print("<th>部门名字</th>");
@@ -57,8 +58,8 @@ public class ListServlet extends HttpServlet {
                 out.print("<td>"+dName+"</td>");
                 out.print("<td>");
                 out.print("<a href='javascript:void(0)' onclick='del("+id+")'>删除</a>\n");
-                out.print("<a href=\"/crud/page/update.html\">修改</a>");
-                out.print("<a href=\""+path+"/detail?id="+id+"\">详情</a>");
+                out.print(" <a href=\""+path+"/upGe?id="+id+"\">修改</a>");
+                out.print(" <a href=\""+path+"/detail?id="+id+"\">详情</a>");
                 out.print("</td>");
                 out.print("</tr>");
             }
@@ -68,7 +69,7 @@ public class ListServlet extends HttpServlet {
             DBUtil.close(conn,ps,rs);
         }
         out.print("</table>");
-        out.print("<a href=\"/crud/page/create.html\">添加页面</a>");
+        out.print("<a href=\""+path+"/page/create.html\">添加页面</a>");
         out.print("</body>");
         out.print("</html>");
     }

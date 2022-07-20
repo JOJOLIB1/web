@@ -25,8 +25,8 @@ public class DetailServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         String id = req.getParameter("id");
         PrintWriter out = resp.getWriter();
-        ResultSet rs;
-        PreparedStatement ps;
+        ResultSet rs = null;
+        PreparedStatement ps = null;
         Connection conn = null;
         out.print("<!DOCTYPE html>");
         out.print("<html lang=\"en\">");
@@ -47,6 +47,8 @@ public class DetailServlet extends HttpServlet {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            DBUtil.close(conn,ps,rs);
         }
         out.print("<br><input type=\"button\" value=\"返回\" onclick='window.history.back()'/>");
         out.print("</body>");
