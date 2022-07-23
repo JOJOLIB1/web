@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="crud2:war exploded" />
+      <artifact name="crud3:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="第一版项目完成">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud2_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/crud2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/src/CRUDServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/src/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/web/page/Error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/web/page/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud2/web/page/welcome.html" afterDir="false" />
+    <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/crud3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/bean/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/modify.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -28,10 +30,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -62,37 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL/crud2/web/WEB-INF&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Push/webL/crud3/web/WEB-INF/lib",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Push\webL\crud3\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\crud2\web\WEB-INF" />
       <recent name="E:\Push\webL\crud2\web" />
       <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
@@ -152,9 +156,9 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="crud2:war exploded">
+        <artifact name="crud3:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/crud" />
+            <option name="CONTEXT_PATH" value="/crudp" />
           </settings>
         </artifact>
       </deployment>
@@ -233,7 +237,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="crud2:war exploded" />
+          <artifact name="crud3:war exploded" />
         </option>
       </method>
     </configuration>
@@ -304,6 +308,8 @@
       <workItem from="1658404573559" duration="1622000" />
       <workItem from="1658455053854" duration="2436000" />
       <workItem from="1658457539616" duration="2271000" />
+      <workItem from="1658545565398" duration="759000" />
+      <workItem from="1658577693809" duration="7286000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -382,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658303527382</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="项目的首次改造">
+      <created>1658545718009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658545718009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +434,7 @@
     <MESSAGE value="复习" />
     <MESSAGE value="项目一半" />
     <MESSAGE value="第一版项目完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一版项目完成" />
+    <MESSAGE value="项目的首次改造" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目的首次改造" />
   </component>
 </project>
