@@ -74,7 +74,6 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "E:/Push/webL/crud3/web/WEB-INF/lib",
@@ -309,7 +308,7 @@
       <workItem from="1658455053854" duration="2436000" />
       <workItem from="1658457539616" duration="2271000" />
       <workItem from="1658545565398" duration="759000" />
-      <workItem from="1658577693809" duration="7286000" />
+      <workItem from="1658577693809" duration="7584000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658545718009</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="servlet 和 jsp 完成oa项目 oa项目第三版">
+      <created>1658585336575</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658585336575</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +441,7 @@
     <MESSAGE value="项目一半" />
     <MESSAGE value="第一版项目完成" />
     <MESSAGE value="项目的首次改造" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目的首次改造" />
+    <MESSAGE value="servlet 和 jsp 完成oa项目 oa项目第三版" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet 和 jsp 完成oa项目 oa项目第三版" />
   </component>
 </project>
