@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="crud:war exploded" />
-      <artifact name="study:war exploded" />
+      <artifact name="crud2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud/src/servlet/CreateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/servlet/UpGeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/src/servlet/UpdateServlet.java" afterDir="false" />
+    <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="第一版项目完成">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/crud2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/src/CRUDServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/web/page/Error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/web/page/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud2/web/page/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/servlet/DetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/servlet/DetailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/src/servlet/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/servlet/ListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/web/page/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/web/page/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/web/page/update.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +74,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL/crud2/web/WEB-INF&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
@@ -90,12 +93,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Push\webL\crud2\web\WEB-INF" />
+      <recent name="E:\Push\webL\crud2\web" />
       <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\study\web\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Push\webL\crud\src" />
       <recent name="E:\Push\webL\study\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.汤姆猫">
@@ -142,29 +150,23 @@
     </configuration>
     <configuration name="汤姆猫" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="crud:war exploded">
+        <artifact name="crud2:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/crud" />
-          </settings>
-        </artifact>
-        <artifact name="study:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/study" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="e5bfabbb-2b28-4bc7-be42-29ce28f03eda" />
       </server-settings>
+      <output_file path="%IDEA_RUN:TOMCAT_HOME%/logs" is_save="true" />
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="11765" />
       </RunnerSettings>
@@ -231,11 +233,16 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="crud:war exploded" />
-          <artifact name="study:war exploded" />
+          <artifact name="crud2:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.servlet.Test" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.DBUtil" />
+      <item itemvalue="Tomcat Server.汤姆猫" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.servlet.Test" />
@@ -291,7 +298,12 @@
       <workItem from="1658219545893" duration="1894000" />
       <workItem from="1658233397223" duration="4251000" />
       <workItem from="1658282923211" duration="5730000" />
-      <workItem from="1658302221530" duration="985000" />
+      <workItem from="1658302221530" duration="1978000" />
+      <workItem from="1658375121146" duration="1259000" />
+      <workItem from="1658390280106" duration="2415000" />
+      <workItem from="1658404573559" duration="1622000" />
+      <workItem from="1658455053854" duration="2436000" />
+      <workItem from="1658457539616" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -363,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658237628603</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第一版项目完成">
+      <created>1658303527382</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658303527382</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,17 +420,7 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="复习" />
     <MESSAGE value="项目一半" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目一半" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/crud/src/servlet/UpdateServlet.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="第一版项目完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一版项目完成" />
   </component>
 </project>
