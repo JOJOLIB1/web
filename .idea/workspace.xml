@@ -7,20 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crud3_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/crud3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/src/bean/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/src/util/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/bean/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +24,9 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Jsp File" />
-        <option value="Class" />
         <option value="package.json" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -65,34 +57,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Push/webL/crud3/web/WEB-INF/lib",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Push/webL/crud3/web/WEB-INF/lib&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;,
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Push\webL\crud3\web\WEB-INF\lib" />
@@ -153,6 +145,8 @@
     </configuration>
     <configuration name="汤姆猫" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="crud3:war exploded">
@@ -308,7 +302,12 @@
       <workItem from="1658455053854" duration="2436000" />
       <workItem from="1658457539616" duration="2271000" />
       <workItem from="1658545565398" duration="759000" />
-      <workItem from="1658577693809" duration="7584000" />
+      <workItem from="1658577693809" duration="8769000" />
+      <workItem from="1658628907864" duration="812000" />
+      <workItem from="1658664590353" duration="48000" />
+      <workItem from="1658736116316" duration="2833000" />
+      <workItem from="1658750130423" duration="1583000" />
+      <workItem from="1658751759342" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -401,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658585336575</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="servlet 和 jsp 完成oa项目 oa项目第三版">
+      <created>1658585371110</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658585371110</updated>
+    </task>
+    <task id="LOCAL-00015" summary="servlet 和 jsp 完成oa项目 oa项目第三版">
+      <created>1658585411119</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658585411119</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

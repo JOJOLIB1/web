@@ -19,6 +19,7 @@
             }
         }
     </script>
+    <h3 align="center">欢迎<%=session.getAttribute("username")%>回来</h3>
     <table align="center">
         <tr>
             <th>记录编号</th>
@@ -42,6 +43,7 @@
             }
         %>
     </table>
-    <center><a href="/crudp/add.jsp">添加数据</a></center>
+    <center><a href="<%=request.getContextPath()%>/add.jsp">添加数据</a></center>
+    <center><a href="<%=request.getContextPath()%>/user/logout">安全退出</a></center>
 </body>
 </html>

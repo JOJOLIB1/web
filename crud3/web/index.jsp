@@ -15,8 +15,13 @@
   </head>
   <body>
     <H1 ALIGN="center">欢迎使用后台页面</H1>
+    <h2 align="center">登录</h2>
     <hr>
-    <center><a href="<%=contextPath%>/dept/list">查看列表</a></center>
+    <form action="<%=request.getContextPath()%>/user/login" method="post">
+      <center>用户名:<input type="text" name="username"></center><br>
+      <center>密码:&nbsp;&nbsp;&nbsp;<input type="password" name="userpwd"></center><br>
+      <center><input type="submit" value="登录"></center>
+    </form>
     <hr>
   </body>
 </html>

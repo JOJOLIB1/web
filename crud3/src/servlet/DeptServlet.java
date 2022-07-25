@@ -6,6 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import util.DBUtil;
 
 import java.io.IOException;
@@ -28,16 +29,21 @@ public class DeptServlet extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String requestServletPath = request.getServletPath();
-        if ("/dept/list".equals(requestServletPath)) {
-            doList(request, response);
-        }else if ("/dept/detail".equals(requestServletPath)) {
-            doDetail(request, response);
-        }else if ("/dept/modify".equals(requestServletPath)) {
-            doModify(request, response);
-        }else if ("/dept/add".equals(requestServletPath)) {
-            doAdd(request, response);
-        }else if ("/dept/del".equals(requestServletPath)) {
-            doDel(request, response);
+        HttpSession session = request.getSession(false);
+        if (session != null && session.getAttribute("username") != null) {
+            if ("/dept/list".equals(requestServletPath)) {
+                doList(request, response);
+            }else if ("/dept/detail".equals(requestServletPath)) {
+                doDetail(request, response);
+            }else if ("/dept/modify".equals(requestServletPath)) {
+                doModify(request, response);
+            }else if ("/dept/add".equals(requestServletPath)) {
+                doAdd(request, response);
+            }else if ("/dept/del".equals(requestServletPath)) {
+                doDel(request, response);
+            }
+        } else {
+            response.sendRedirect(request.getContextPath());
         }
     }
 
