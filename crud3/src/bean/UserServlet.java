@@ -2,10 +2,7 @@ package bean;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
+import jakarta.servlet.http.*;
 import util.DBUtil;
 
 import java.io.IOException;
@@ -40,6 +37,14 @@ public class UserServlet extends HttpServlet {
             throws ServletException, IOException{
         HttpSession session = request.getSession(false);
         session.invalidate();
+        Cookie username = new Cookie("username", "");
+        Cookie userpwd = new Cookie("userpwd", "");
+        username.setPath(request.getContextPath());
+        userpwd.setPath(request.getContextPath());
+        username.setMaxAge(0);
+        userpwd.setMaxAge(0);
+        response.addCookie(username);
+        response.addCookie(userpwd);
         response.sendRedirect(request.getContextPath());
     }
 
@@ -72,6 +77,16 @@ public class UserServlet extends HttpServlet {
             path = "/dept/list";
             HttpSession session = request.getSession();
             session.setAttribute("username",username);
+            if ("true".equals(request.getParameter("pass"))) {
+                Cookie username1 = new Cookie("username", username);
+                Cookie userpwd1 = new Cookie("userpwd", userpwd);
+                username1.setMaxAge(60);
+                userpwd1.setMaxAge(60);
+                username1.setPath(request.getContextPath());
+                userpwd1.setPath(request.getContextPath());
+                response.addCookie(username1);
+                response.addCookie(userpwd1);
+            }
         }else {
             path = "/error.jsp";
         }

@@ -20,7 +20,7 @@
     <form action="<%=request.getContextPath()%>/user/login" method="post">
       <center>用户名:<input type="text" name="username"></center><br>
       <center>密码:&nbsp;&nbsp;&nbsp;<input type="password" name="userpwd"></center><br>
-      <center><input type="submit" value="登录"></center>
+      <center><input type="submit" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;是否1分钟免登录<input type="radio" name="pass" value="true"></center>
     </form>
     <hr>
   </body>

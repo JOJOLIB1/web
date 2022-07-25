@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud3/src/bean/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/bean/WelcomeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/src/bean/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/bean/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,8 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="package.json" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -307,7 +306,7 @@
       <workItem from="1658664590353" duration="48000" />
       <workItem from="1658736116316" duration="2833000" />
       <workItem from="1658750130423" duration="1583000" />
-      <workItem from="1658751759342" duration="1751000" />
+      <workItem from="1658751759342" duration="5419000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -414,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658585411119</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="引入登录界面和session版本">
+      <created>1658753538200</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753538200</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,6 +461,7 @@
     <MESSAGE value="第一版项目完成" />
     <MESSAGE value="项目的首次改造" />
     <MESSAGE value="servlet 和 jsp 完成oa项目 oa项目第三版" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet 和 jsp 完成oa项目 oa项目第三版" />
+    <MESSAGE value="引入登录界面和session版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入登录界面和session版本" />
   </component>
 </project>
