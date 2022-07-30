@@ -6,4 +6,12 @@
     <welcome-file-list>
         <welcome-file>welcome</welcome-file>
     </welcome-file-list>
+    <filter>
+        <filter-name>thing</filter-name>
+        <filter-class>servlet.ThingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>thing</filter-name>
+        <url-pattern>/dept/*</url-pattern>
+    </filter-mapping>
 </web-app>

@@ -7,19 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_servlet_jsp_jstl_2_0_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/src/servlet/ThingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/crud3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/crud3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/src/bean/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/src/bean/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/WelcomeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud3/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud3/web/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/modify.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +27,8 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="package.json" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -323,7 +318,7 @@
       <workItem from="1659010590884" duration="1992000" />
       <workItem from="1659091245068" duration="91000" />
       <workItem from="1659152877296" duration="885000" />
-      <workItem from="1659168791079" duration="4049000" />
+      <workItem from="1659168791079" duration="6350000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -458,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659171559710</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="基于JSTL EL BASE改造项目">
+      <created>1659173348605</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659173348605</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,15 +505,16 @@
     <MESSAGE value="引入cookie机制" />
     <MESSAGE value="jsp练习初步" />
     <MESSAGE value="JSTL 和 EL 表达式的练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSTL 和 EL 表达式的练习" />
+    <MESSAGE value="基于JSTL EL BASE改造项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于JSTL EL BASE改造项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="7" />
+          <line>27</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

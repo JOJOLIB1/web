@@ -1,5 +1,6 @@
-package bean;
+package servlet;
 
+import bean.User;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
@@ -54,7 +55,8 @@ public class WelcomeServlet extends HttpServlet {
             }
             if (login) {
                 HttpSession session = request.getSession();
-                session.setAttribute("username", username);
+                User user = new User(username,userpwd);
+                session.setAttribute("user",user);
                 response.sendRedirect(request.getContextPath() + "/dept/list");
             }
         }else {

@@ -1,5 +1,6 @@
-package bean;
+package servlet;
 
+import bean.User;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
@@ -76,7 +77,8 @@ public class UserServlet extends HttpServlet {
         if (login) {
             path = "/dept/list";
             HttpSession session = request.getSession();
-            session.setAttribute("username",username);
+            User user = new User(username,userpwd);
+            session.setAttribute("user",user);
             if ("true".equals(request.getParameter("pass"))) {
                 Cookie username1 = new Cookie("username", username);
                 Cookie userpwd1 = new Cookie("userpwd", userpwd);

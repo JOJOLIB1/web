@@ -22,7 +22,7 @@
             }
         }
     </script>
-    <h3 align="center">欢迎${username}回来</h3>
+    <h3 align="center">欢迎${username}回来,当前在线人数:${count}</h3>
     <table align="center">
         <tr>
             <th>记录编号</th>
