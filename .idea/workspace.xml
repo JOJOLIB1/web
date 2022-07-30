@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="jsp:war exploded" />
+      <artifact name="crud3:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c458c8ef-e02a-47c9-84ea-b20ecfe1a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jsp/src/jsp/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsp/web/EL.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsp/web/JSTL.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsp/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsp/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_servlet_jsp_jstl_2_0_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud3/web/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/jsp/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/crud3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/crud3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud3/web/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crud3/web/modify.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Push/webL/jsp/web/WEB-INF/lib",
+    "last_opened_file_path": "E:/Push/webL/crud3/web/WEB-INF/lib",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -90,8 +95,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Push\webL\jsp\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\crud3\web\WEB-INF\lib" />
+      <recent name="E:\Push\webL\jsp\web\WEB-INF\lib" />
       <recent name="E:\Push\webL\crud2\web\WEB-INF" />
       <recent name="E:\Push\webL\crud2\web" />
       <recent name="E:\Push\webL\crud\web\WEB-INF\lib" />
@@ -149,11 +154,12 @@
     <configuration name="汤姆猫" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="jsp:war exploded">
+        <artifact name="crud3:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/jsp" />
+            <option name="CONTEXT_PATH" value="/crudp" />
           </settings>
         </artifact>
       </deployment>
@@ -232,7 +238,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="jsp:war exploded" />
+          <artifact name="crud3:war exploded" />
         </option>
       </method>
     </configuration>
@@ -317,7 +323,7 @@
       <workItem from="1659010590884" duration="1992000" />
       <workItem from="1659091245068" duration="91000" />
       <workItem from="1659152877296" duration="885000" />
-      <workItem from="1659168791079" duration="2256000" />
+      <workItem from="1659168791079" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="我的第一个servlet">
       <created>1657513793613</created>
@@ -445,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659016749263</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="JSTL 和 EL 表达式的练习">
+      <created>1659171559710</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659171559710</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,6 +502,18 @@
     <MESSAGE value="引入登录界面和session版本" />
     <MESSAGE value="引入cookie机制" />
     <MESSAGE value="jsp练习初步" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp练习初步" />
+    <MESSAGE value="JSTL 和 EL 表达式的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSTL 和 EL 表达式的练习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/crud3/src/servlet/DeptServlet.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

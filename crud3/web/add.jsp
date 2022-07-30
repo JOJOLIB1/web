@@ -11,7 +11,7 @@
     <title>添加数据页面</title>
 </head>
 <body>
-    <form action="<%=request.getContextPath()%>/dept/add" method="post">
+    <form action="${pageContext.request.contextPath}/dept/add" method="post">
         部门编号:<input type="text" name="dept_no"><br>
         部门名称:<input type="text" name="dept_name"><br>
         部门地址:<input type="text" name="dept_loc"><br>

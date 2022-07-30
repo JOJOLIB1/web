@@ -11,6 +11,6 @@
     <title>失败页面</title>
 </head>
 <body>
-    <h1 align="center">账号或密码错误,<a href="<%=request.getContextPath()%>">请重新登录</a></h1>
+    <h1 align="center">账号或密码错误,<a href="${pageContext.request.contextPath}">请重新登录</a></h1>
 </body>
 </html>

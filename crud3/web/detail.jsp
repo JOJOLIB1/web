@@ -6,20 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    Dept dept = (Dept)request.getAttribute("deOne");
-%>
 <html>
 <head>
     <title>详情页面</title>
-</head>1
+</head>
 <body>
     <hr>
-    编号:&nbsp;&nbsp;<%=dept.getId()%>
-    部门编号:<%=dept.getDeptNo()%>
-    部门名字:<%=dept.getDeptName()%>
-    部门地址:<%=dept.getDeptLoc()%>
+    编号:&nbsp;&nbsp;${deOne.id}
+    部门编号:${deOne.deptNo}
+    部门名字:${deOne.deptName}
+    部门地址:${deOne.deptLoc}
     <hr>
-    <center><a href="<%=request.getContextPath()%>/dept/list">返回</a></center>
+    <center><a href="${pageContext.request.contextPath}/dept/list">返回</a></center>
 </body>
 </html>
